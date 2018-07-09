@@ -11,14 +11,15 @@ A[0] < A[1] < ... A[i-1] < A[i] > A[i+1] > ... > A[A.length - 1].
 Input: [0,1,0]
 Output: 1
 
+
 */
 
 
 
 int peakIndexInMountainArray(int* A, int ASize) {
     
-    int index=0; //·í«e³Ì¤j¼Æ­È
-    int pivot=0; //·í«e³Ì¤j¼Æ¦ì¸m
+    int index=0; //ç•¶å‰æœ€å¤§æ•¸å€¼
+    int pivot=0; //ç•¶å‰æœ€å¤§æ•¸ä½ç½®
 
     for(int i=0 ; i < ASize ; i++) {
         
