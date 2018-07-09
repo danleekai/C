@@ -10,6 +10,7 @@ The output should be true or false representing whether the robot makes a circle
 Input: "UD"
 Output: true
 
+
 */
 
 bool judgeCircle(char* moves) {
